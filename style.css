@@ -47,3 +47,64 @@ a {
 .footer p {
     margin: 8px;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 96px;
+}
+
+.header ul {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.section-one {
+    display: flex;
+    padding: 128px 96px;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    color: #F9FAF8;
+    width: 8rem;
+    font-size: 16px;
+    margin: 8px 0px;
+    padding: 4px 0px;
+    border-radius: 8px;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 128px 96px;
+    gap: 64px;
+}
+
+.section-two ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px;
+}
+
+.section-two ul li {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.square {
+   width: 200px;
+   height: 200px;
+   border: 8px solid #3882F6;
+   border-radius: 12px;
+}
