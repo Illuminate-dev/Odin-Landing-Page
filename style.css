@@ -65,7 +65,7 @@ a {
 #section-one {
     display: flex;
     justify-content: space-between;
-    gap: 16px   ;
+    gap: 16px;
     padding: 128px 96px;
 }
 
